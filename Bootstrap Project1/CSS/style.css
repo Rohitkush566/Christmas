@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-size:80px;
+    font-family: var(--primary-font);
+    letter-spacing:5px;
+    font-weight: 500;
+    color:var(--text-white);
+} 
+h3{
+    font-size:35px; 
+    letter-spacing:2px;
+    font-weight: 700;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+h4{
+    font-size:30px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+h5{
+    font-size:22px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+p{
+    margin-top:5px;
+    margin-bottom:1rem;
+    font-size:16px;
+    font-weight: 300;
+    line-height:normal;
+    color:var(--text-white);
+}
+/*navbar css*/
+.header .navbar-brand img{
+	max-width: 219px;
+	height: auto;
+}
+.header .nav-item{
+	margin: 0 10px;
+}
+.header .nav-item .nav-link{
+	font-size: 15px;
+	font-weight: 500px;
+	color: var(--text-white);
+	line-height: 1;
+	letter-spacing: 1px;
+}
+
+
+.carousel-caption{
+	margin-bottom: 40px;
+}

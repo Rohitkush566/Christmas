@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+    /* Background Color */
+    --bg-red: #d3282e;
+    --bg-white: #fff;
+    --bg-light-white: #f6f7f8;
+    --bg-yellow: #fdd800;
+    --bg-green: #009900;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-white: #fff;
+    --text-red: #d3282e;
+    --text-green: #009900;
+    --text-yellow: #fdd800;
+
+    /* Fonts */
+    --primary-font: 'Great Vibes', cursive;
+    --secondary-font: 'Poppins', sans-serif;
+}
+body {
+    font-family: var(--secondary-font);
+    background-color: var(--bg-white);
+}
+.text-red{
+    color:var(--text-red);
+}
+.bg-red{
+    background-color:var(--bg-red) !important;
+}
+.bg-light-white{
+    background-color:var(--bg-light-white) !important;
+}
+.bg-green{
+    background-color:var(--bg-green) !important;
+}
+h1{
+    font-size:50px;
+    font-family: var(--primary-font);
+    letter-spacing:3px;
+    font-weight: 500;
+    color:var(--text-white);
+} 
+h3{
+    font-size:30px; 
+    letter-spacing:2px;
+    font-weight: 700;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+h4{
+    font-size:25px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+h5{
+    font-size:20px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+p{
+    margin-top:5px;
+    margin-bottom:1rem;
+    font-size:16px;
+    font-weight: 300;
+    line-height:normal;
+    color:var(--text-white);
+}
+
+/* Navbar CSS */
+.header .navbar-brand img{
+  max-width: 210px;
+  height: auto;
+
+}
+.header .nav-item{
+    margin: 0 10px;
+}
+.header .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: 500px;
+    color: var(--text-white);
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.header .nav-item .nav-link.active{
+    color: var(--text-yellow);
+}
+.header .nav-item .nav-link.active1{
+    color: var(--text-green)
+}
+.header .nav-item .nav-link.active2{
+    color: var(--text-black)
+}
+
+/* Banner CSS */
+.banner{
+    background: var(--bg-red);
+}
+.carousel-indicators [data-bs-target]{
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    background-color:var(--bg-yellow) !important;
+}
+.carousel-caption{
+    margin-bottom: 60px;
+    margin-left: -60px;
+   
+}
+
+/*wish css*/
+.title-box .image123{
+    width: 204px;
+    height: 54px;
+    padding: 0 0 52px;
+    background-image: url(../image/tree.png);
+    background-repeat: no-repeat;
+    margin:auto;
+}
+
+/*best deals*/
+.bestdeal .deals-item{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.bestdeal .deals-text-right{
+    position: absolute;
+    right: 39px;
+    top: 42px;
+}
+.bestdeal .deals-text-center-top{
+    position: absolute;
+    right: 46%;
+    top: 41px;
+}
+.bestdeal .deals-text-left{
+    position: absolute;
+    right: 91px;
+    top: 41px;
+}
